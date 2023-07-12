@@ -258,29 +258,29 @@ hr {
     width: 100%;
 }
 
-.about .certificate li{
-    list-style: none;
-    margin-top: 10px;
+.about .certificate {
+    width: 100%;
+}
+
+.about .certificate td:first-child {
+    width: 33%;
+    text-align: top;
 }
 
 .animation_surface {
     transform-style: preserve-3d;
     transform-origin: left;
-    transition: all 6s linear 0s;
+    transition: all 6s ease-in-out 0s;
 }
 
 .animation_rightSide {
     transform-style: preserve-3d;
     transform-origin: left;
-    transition: all 3s linear 0s;
+    transition: all 3s ease-in 0s;
 }
 
 .animation_sideRight {
     transform-style: preserve-3d;
     transform-origin: left;
-    transition: all 3s linear 0s;
-}
-
-@media (max-width: 1000px) {
-    
+    transition: all 3s ease-in 0s;
 }

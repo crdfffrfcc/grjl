@@ -1,0 +1,27 @@
+@media (max-width: 1000px) {
+    .box{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    .right_Side{
+        grid-template-columns: 1fr  !important;
+    }
+
+    .side_right {
+        display: none;
+    }
+
+    .left_part {
+        width: 100% !important;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
