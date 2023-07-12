@@ -15,16 +15,14 @@ let resize = function () {
         delete _
     }
 }
-
+resize()
 window.addEventListener('resize', resize)
-window.addEventListener('load', () => {
-    resize()
-    let link = document.createElement("link")
-    link.rel = "stylesheet"
-    link.type = "text/css"
-    link.href = "./resource/media.css"
-    document.querySelector('head').appendChild(link)
-})
+let link = document.createElement("link")
+link.rel = "stylesheet"
+link.type = "text/css"
+link.href = "./resource/media.css"
+document.querySelector('head').appendChild(link)
+
 
 let isfy = false
 let isanimation = true

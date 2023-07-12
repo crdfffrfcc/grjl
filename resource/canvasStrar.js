@@ -55,9 +55,11 @@ window.addEventListener('load',()=>{
             }
         }
     }
-    setInterval(()=>{
+    function raf() {
         ctx.clearRect(0,0,canvas.width,canvas.height);
         draw();
         update();
-    },20)
+        requestAnimationFrame(raf)
+    }
+    raf()
 })
