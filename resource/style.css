@@ -179,6 +179,12 @@ hr {
     margin-bottom: 10px;
 }
 
+.title3 {
+    color: #003147;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 .contactInfo ul {
     position: relative;
 }
@@ -242,12 +248,12 @@ hr {
     border-radius: 3px;
 }
 
-.about {
+.surface .about {
     margin-bottom: 50px;
 }
 
 .bottom .about {
-    margin-bottom: 30px;
+    margin-bottom: 1em;
 }
 
 .about:last-child {
