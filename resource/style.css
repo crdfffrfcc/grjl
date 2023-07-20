@@ -6,6 +6,7 @@
     line-height: 30px;
     font-family: Verdana;
     backface-visibility: visible;
+    -webkit-backface-visibility: visible;
     cursor: default
 }
 
@@ -17,6 +18,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+a {
+    text-decoration: none
 }
 
 .box {

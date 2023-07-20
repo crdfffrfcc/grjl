@@ -25,4 +25,16 @@
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .animation_surface {
+        transition: none;
+    }
+    
+    .animation_rightSide {
+        transition: none;
+    }
+    
+    .animation_sideRight {
+        transition: none;
+    }
 }
